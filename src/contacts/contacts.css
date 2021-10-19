@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /* width: 0em; */
+}
+
+.contacts{
+    width: 30%;
+    flex-shrink: 30%;
+    border-radius: 0.25em 0em 0em 0.25em;
+    background-color: rgb(218, 218, 218);
+    display: flexbox;
+    flex-direction: column;
+}
+
+.contactInfo{
+    background-color: rgb(207, 207, 207);
+    padding:1em;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 0.25em 0em 0em 0em;
+}
+
+
+.buttons{
+    align-self:center;
+}
+
+.SCLContainer{
+    padding:1em 0.5em;
+}
+.searchBox{
+    display: flex;
+}
+
+.searchInput{
+    width: 90%;
+    flex-shrink: 1;
+    padding: 0.5em;
+    border-radius: 2em;
+    border:none;
+    background-color: transparent;
+}
+
+.searchButton{
+    flex-shrink: 2;
+    width: 10%;
+    background-color: transparent;
+    border:none;
+    transition: all 1s;
+}
+
+.profilePic{
+    display: flex;
+    padding:0.1em;
+    flex-shrink: 1;
+}
+
+.profilePic > img{
+    border-radius: 100%;
+    padding:0.5em;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.content{
+    text-align: left;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content > * {
+    margin:0.2em;
+}
