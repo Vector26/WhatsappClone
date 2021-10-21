@@ -32,7 +32,7 @@ function ContactInfo() {
 
 function ContactsList() {
     return (
-        <Paper style={{maxHeight: "70vh", overflow: 'auto',marginTop:"1em"}}>
+        <Paper style={{maxHeight: "74vh", overflow: 'auto',marginTop:"1em"}}>
             <List component="nav" aria-label="secondary mailbox folder">
                     <ContactCard/>
                     <ContactCard/>

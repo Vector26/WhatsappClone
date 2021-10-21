@@ -1,9 +1,12 @@
+html,body{
+  overflow: hidden;
+}
 
 .App {
   font-family: 'Ubuntu', sans-serif !important;
   text-align: center;
-  padding:1vh 1vh;
-  height: 96vh;
+  background-color: rgb(218, 218, 218);
+  height: 100vh;
   display: flex;
   flex-direction: row;
 }

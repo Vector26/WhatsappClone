@@ -21,6 +21,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    /* height:79vh; */
+    flex:9;
+    flex-grow: 9;
+    align-self: stretch;
+    overflow-y: scroll;
+    /* padding: 1em 0em; */
 }
 
 .chatContaineryou{
@@ -49,4 +55,18 @@
 .reciever{
     border-radius: 1em 1em 1em 0em;
     background-color: rgb(107, 107, 107);
+}
+
+.chatAndCreate{
+    display: flex;
+    flex-direction: column;
+    padding:1em;
+    height: 100%;
+}
+
+
+.createMsg{
+    flex-grow: 1;
+    justify-self: flex-start;
+    flex:1;
 }
