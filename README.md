@@ -1,7 +1,9 @@
 # Whatsapp Clone UI
 
-![](2021-10-19-13-27-03.png)
+<!-- ![](2021-10-19-13-27-03.png) -->
 
+
+https://user-images.githubusercontent.com/23053807/138335317-ccc9a9b3-45cf-4771-9fa6-d69d1a6133e1.mp4
 
 ## Available Scripts
 
@@ -17,6 +19,8 @@ You will also see any lint errors in the console.
 
 
 ### `npm run build`
+
+
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
